@@ -5,7 +5,7 @@ namespace App\Data;
 
 class WordJson {
 
-    private const FILE_PATH = __DIR__ . './Word.json';
+    private const FILE_PATH = __DIR__ . '/Word.json';
     private static array $words = [];
 
     private static function loadFile() {
